@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav nav-mobile">
+    <div class="btn-menu">
+      <img src="./images/icon-hamburger.svg" alt="">
+    </div>
+    <div class="container-logo">
+      <img src="./images/logo.svg" alt="Logo brand">
+    </div>
+    <div class="menu disabled">
+      <ul class="nav--links">
+        <li class="nav--link"><a href="#">Home</a></li>
+        <li class="nav--link"><a href="#">Shop</a></li>
+        <li class="nav--link"><a href="#">About</a></li>
+        <li class="nav--link"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="section">
+      <div class="carousel">
+        <img class="mobile active" src="images/mobile-image-hero-1.jpg">
+        <img class="desktop" src="./images/desktop-image-hero-1.jpg" alt="">
+        <div class="carousel--commands">
+          <div id="click-left">
+            <img src="./images/icon-angle-left.svg" alt="Logo arrow left">
+          </div>
+          <div id="click-right">
+            <img src="./images/icon-angle-right.svg" alt="Logo arrow right">
+          </div>
+        </div>
+      </div>
+      <div class="container container--main-title">
+        <h1 class="main-title animated">Discover innovative ways to decorate</h1>
+        <p class="main-paragraph animated">We provide unmatched quality, comfort, and style for property owners across
+          the
+          country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+        <div class="shop-now">
+          <span class="uppercase spacing">Shop now</span>
+          <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+              fill="#000" fill-rule="nonzero" /></svg>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="picture">
+        <img src="./images/image-about-dark.jpg" alt="Image of a dark room">
+      </div>
+      <div class="container">
+        <h2 class="subtitle uppercase spacing">About our furniture</h2>
+        <p class="subparagraph">Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+      <div class="picture">
+        <img src="./images/image-about-light.jpg" alt="Image of a luminous room">
+      </div>
+    </div>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Rem0ld">Pierre Lovergne</a>.
+  </div> -->
+  <script src="./script.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
